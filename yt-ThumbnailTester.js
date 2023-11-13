@@ -3,9 +3,9 @@ const fs = require('fs');
 const moment = require('moment');
 const { exec } = require('child_process');
 const path = require('path');
-const imageFilePath = './image/thumbnail.png';
 
 // 使用者需要更改的變數
+const imageFilePath = './image/thumbnail.png';
 const videoTitle = 'Your Video Title Here';
 const channelName = 'Your Channal Name';
 const channelIconUrl = 'https://yt3.googleusercontent.com/ytc/AOPolaSFWJP-tJrwEL5PjWwlLLzVLY0ta9hV2kJHKlXuoIc=s176-c-k-c0x00ffffff-no-rj'; // Replace with your Profile Picture Link
